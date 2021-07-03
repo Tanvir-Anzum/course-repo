@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-image: url(./b..webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.logo h1{
+    font-weight: 800;
+    font-size: 3vw;
+    margin-top: 0.1rem;
+    padding-top: 0px;
+    cursor: pointer;
+}
+
+.menu-1{
+    position: relative;
+}
+
+.menu-1::after{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: yellowgreen;
+
+    position: absolute;
+    bottom: -1rem;
+    
+}
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    /*background-color: skyblue;*/
+    margin: 0;
+    padding: 1rem;
+}
+
+.menu{
+    margin-right: 45rem;
+    display: flex;
+    font-size: 2.3rem;
+    /*gap: 3rem;*/
+    margin-left: 3rem;
+    font-weight: 600;
+    
+    padding: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+
+}
+
+.menu-2{
+       margin-left: 3rem;    
+       
+
+}
+.menu-3{
+       margin-left: 3rem;    
+       
+}
+
+.menu-4{
+       margin-left: 3rem;    
+}
+
+
+.main{
+
+    height: 80vh;
+}
+.main h1{
+    width: 33.33vw;
+    padding: 1rem;
+    padding-top: 13rem;
+    font-size: 1.8rem;
+}
+
+h4{
+    width: 33.33vw;
+    padding: 1rem;
+}
+
+.footer{
+    height: 9.8vh;
+   /* background-color: skyblue;*/
+    display: flex;
+    align-items: center;
+}
+
+.submit{
+    margin-left: 6rem;
+    padding: .7rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    /*background-color: pink;*/
+    
+}
